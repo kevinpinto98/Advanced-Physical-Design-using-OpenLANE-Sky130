@@ -64,6 +64,20 @@ is going right. Floorplan ensures that there are decoupling capacitors at the bo
 rows. Power distribution network gets created during floorplan. In our case we will do power networ generation after CTS.
 
 ### Day 2 lab results:
+![Program](day2/d2_magic_floorplan.png)
+
+![Program](day2/d2_magic_layout.png)
+
+![Program](day2/d2_magic_placement.png)
+
+![Program](day2/d2_magic_what_command.png)
+
+![Program](day2/d2_magic_with_standard_cells.png)
+
+![Program](day2/d2_run_floorplan_output.png)
+
+![Program](day2/d2_run_placement_output.png)
+
 
 ## Day 3: Design library cell using Magic Layout and ngspice characterization
 After running the magic command we again go into the openLANE flow and type the command:
