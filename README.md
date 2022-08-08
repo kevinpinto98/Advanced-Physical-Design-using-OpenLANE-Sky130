@@ -7,8 +7,6 @@ When we invoke any OpenLANE tool it will be done from the openlane directory. We
 If the above mentioned command is not working then try running the following two commands:
 
     docker
-
-
     ./flow.tcl -interactive
 
 Once the interactive flow launches type:
@@ -78,11 +76,28 @@ To run SPICE files using ngspice run:
 
 
 ## Day 4: Pre-layout timing analysis and importance of good clock tree
+To run CTS type the command:
 
+    run_cts
+
+To get into openROAD after launching openLANE type:
+
+    openroad
+One advantage of invoking openROAD from openLANE is that we can access all the variables declared in openLANE.
 
 
 ## Day 5: Final steps for RTL2GDS using tritonRoute and openSTA
+If we want configurations from the last run without overwriting new configurations modify the design setup stage command as shown below:
 
+    prep -design [design name] -tag [folder_name]
+
+To run the power distribution network simply type the command:
+
+    gen_pdn
+
+For routing run the command:
+
+    run_routing
 
 # Acknowledgements
   - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
