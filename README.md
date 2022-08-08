@@ -78,7 +78,6 @@ rows. Power distribution network gets created during floorplan. In our case we w
 
 ![Program](day2/d2_run_placement_output.png)
 
-
 ## Day 3: Design library cell using Magic Layout and ngspice characterization
 After running the magic command we again go into the openLANE flow and type the command:
 
