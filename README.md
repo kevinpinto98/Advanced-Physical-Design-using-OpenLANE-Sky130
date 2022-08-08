@@ -134,10 +134,17 @@ To get into openROAD after launching openLANE type:
 One advantage of invoking openROAD from openLANE is that we can access all the variables declared in openLANE.
 
 ### Day 4 lab results:
-
 ![Program](day4/d4_lab1.png)
 
+![Program](day4/d4_lab2.png)
+
 ![Program](day4/d4_lab3.png)
+
+![Program](day4/d4_lab4.png)
+
+![Program](day4/d4_lab5.png)
+
+![Program](day4/d4_lab6.png)
 
 ![Program](day4/d4_lab7.png)
 
