@@ -21,7 +21,7 @@ To run synthesis type:
     
     run_synthesis
 
-
+Day 1 lab results:
 
 ## Day 2: Good floorplan vs bad floorplan and introduction to library cells
 To run a floor plan we need to type the following command after running synthesis:
@@ -45,6 +45,8 @@ To run placement type the command:
 This command performs the placement of standard cells. We will find the terms HPWL and overflow when we run this command.  Our objective is to converge this overflow. If overflow value decreases it means our design will converge and everything
 is going right. Floorplan ensures that there are decoupling capacitors at the boundary of standard cells. Placement ensures that standard cells are placed correctly in the standard cell
 rows. Power distribution network gets created during floorplan. In our case we will do power networ generation after CTS.
+
+Day 2 lab results:
 
 ## Day 3: Design library cell using Magic Layout and ngspice characterization
 After running the magic command we again go into the openLANE flow and type the command:
@@ -74,6 +76,7 @@ To run SPICE files using ngspice run:
     
     ngspice [.spice file]
 
+Day 3 lab results:
 
 ## Day 4: Pre-layout timing analysis and importance of good clock tree
 To run CTS type the command:
@@ -85,6 +88,25 @@ To get into openROAD after launching openLANE type:
     openroad
 One advantage of invoking openROAD from openLANE is that we can access all the variables declared in openLANE.
 
+Day 4 lab results:
+
+![Program](day4/day4_lab1)
+
+![Program](day4/day4_lab2)
+
+![Program](day4/day4_lab3)
+
+![Program](day4/day4_lab4)
+
+![Program](day4/day4_lab5)
+
+![Program](day4/day4_lab6)
+
+![Program](day4/day4_lab7)
+
+![Program](day4/day4_lab8)
+
+![Program](day4/day4_lab9)
 
 ## Day 5: Final steps for RTL2GDS using tritonRoute and openSTA
 If we want configurations from the last run without overwriting new configurations modify the design setup stage command as shown below:
@@ -98,6 +120,8 @@ To run the power distribution network simply type the command:
 For routing run the command:
 
     run_routing
+
+Day 5 lab results:
 
 # Acknowledgements
   - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
